@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    margin: auto;
+
+}
+
+body {
+    background-color: cornflowerblue;
+    font-size: large;
+    font-family: 'Lobster Two', cursive;
+    background-image: url("image/birthday.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    font-size: larger;
+}
+
+input {
+    margin-bottom: 1rem;
+    border-radius: 0.8rem;
+    padding: 0.3rem 0;
+    outline: none;
+    font-size: large;
+
+
+
+}
+
+label {
+    margin: auto;
+    font-size: larger;
+}
+
+#check-button {
+    background-color: rgb(188, 219, 12);
+    padding: 5px;
+    border-radius: 1rem;
+    width: 15vh;
+    font-size: large;
+    font-family: 'Lobster Two', cursive;
+    margin-top: 1rem;
+    width: 20vh;
+    margin: 1rem auto;
+    outline: none;
+}
+
+#output {
+    margin: 1rem;
+    font-size: x-large;
+    color: black;
+    font-weight: 700;
+
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #966F33;
+    padding: 0.01rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+
+}
+
+
+a,
+
+li {
+    display: inline;
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
